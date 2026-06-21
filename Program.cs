@@ -1,5 +1,6 @@
 using System;
 using System.Windows.Forms;
+using InventoryApp.Utils;
 
 namespace InventoryApp
 {
@@ -8,9 +9,13 @@ namespace InventoryApp
         [STAThread]
         static void Main()
         {
+            // Load configuration files
+            LocalizationManager.Load();
+            TransliterationManager.Load();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form());
+            Application.Run(new MainForm());
         }
     }
 }
