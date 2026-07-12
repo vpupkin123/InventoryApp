@@ -30,8 +30,6 @@ Windows 7 or higher
 
 [Download .exe](https://github.com/vpupkin123/InventoryApp/releases/download/v1.0.0/v1.0.0.zip)
 
-🍎
-
 
 ### Windows
 
